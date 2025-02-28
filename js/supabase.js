@@ -2,8 +2,8 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.21.0/+esm'
 
 // Initialize Supabase client
-const supabaseUrl = 'https://llfspawuyetujfnzgfey.supabase.co' // Replace with your Supabase URL
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxsZnNwYXd1eWV0dWpmbnpnZmV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA3NTA0NDEsImV4cCI6MjA1NjMyNjQ0MX0.4A-qEeJqZQg5uaz9cBvXwVas5zPkC1MHmhFcQcz9Lro' // Replace with your Supabase anon key
+const supabaseUrl = 'https://lymrkhliyxqnaxnyuaub.supabase.co' // Replace with your Supabase URL
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx5bXJraGxpeXhxbmF4bnl1YXViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA3NjA4MzcsImV4cCI6MjA1NjMzNjgzN30.Y2hVAcUZC2hZVXUzHZIWs-HnqyPjfPTOssFVTdC0rl4'
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Function to submit contact form data to Supabase
